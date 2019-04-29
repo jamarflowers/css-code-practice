@@ -1,0 +1,23 @@
+@keyframes boomerang {
+   0%,100% {
+       transform: translate(0px, 0px);
+       animation-timing-function:ease-in-out;
+        opacity: 0;
+   }
+
+   50% {
+       transform: translate(350px, 0px);
+       animation-timing-function:ease-in-out;
+        opacity: 1;
+   }
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    animation-name:boomerang;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ 
+}
+

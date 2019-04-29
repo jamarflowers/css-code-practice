@@ -1,0 +1,33 @@
+@keyframes colorchange {
+   0%,100% {
+       background-color:#ff003b;
+   }
+
+   30% {
+       background-color:#0043ff;
+   }
+   60% {
+       background-color:#f6ff00;
+   }
+}
+
+.square {
+    height: 60px;
+    width: 60px;
+    margin-left:2px;
+    background-color:black;
+    display: inline-block;
+}   
+    
+.square:hover {    
+    animation-name:colorchange;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    transition-timing-function: ease-in-out;
+    
+}
+ .contain {
+    margin: auto;
+    width: 500px;
+    height: 60px;
+}

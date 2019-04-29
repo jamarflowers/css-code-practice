@@ -1,0 +1,79 @@
+  
+  
+    The @keyframes rule specifies the animation code.
+    
+    The animation is created by gradually changing from one set of CSS styles to another.
+    During the animation, you can change the set of CSS styles many times.
+    Specify when the style change will happen in percent, or with the keywords "from" and "to", 
+    which is the same as 0% and 100%. 0% is the beginning of the animation, 
+    100% is when the animation is complete.
+
+  Tip: For best browser support, you should always define both the 0% and the 100% selectors.
+    
+    
+    CSS3 transitions allows you to change property values smoothly 
+    (from one value to another),over a given duration.
+    
+    To create a transition effect, you must specify two things:
+     - the CSS property you want to add an effect to
+     - the duration of the effect
+     
+    ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+    linear - specifies a transition effect with the same speed from start to end
+    ease-in - specifies a transition effect with a slow start
+    ease-out - specifies a transition effect with a slow end
+    ease-in-out - specifies a transition effect with a slow start and end
+    cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+    
+
+
+    transform: none|transform-functions|initial|inherit;
+    
+-------------------------------------------------------------------------------------------------
+ 
+   3D Transform Methods
+   
+    matrix3d (n^16) - Defines a 3D transformation, using a 4x4 matrix of 16 values
+    translate3d(x,y,z) - Defines a 3D translation
+    translateX(x) - Defines a 3D translation, using only the value for the X-axis
+    translateY(y) - Defines a 3D translation, using only the value for the Y-axis
+    translateZ(z) - Defines a 3D translation, using only the value for the Z-axis
+    scale3d(x,y,z) - Defines a 3D scale transformation
+    scaleX(x) - Defines a 3D scale transformation by giving a value for the X-axis
+    scaleY(y) - Defines a 3D scale transformation by giving a value for the Y-axis
+    scaleZ(z) - Defines a 3D scale transformation by giving a value for the Z-axis
+    rotate3d(x,y,z,angle) - Defines a 3D rotation
+    rotateX(angle) - Defines a 3D rotation along the X-axis
+    rotateY(angle) - Defines a 3D rotation along the Y-axis
+    rotateZ(angle) - Defines a 3D rotation along the Z-axis
+    perspective(n) - Defines a perspective view for a 3D transformed element
+
+   2D Transform Methods
+       
+    matrix(n,n,n,n,n,n) - Defines a 2D transformation, using a matrix of six values
+    translate(x,y) - Defines a 2D translation, moving the element along the X- and the Y-axis
+    translateX(n) - Defines a 2D translation, moving the element along the X-axis
+    translateY(n) - Defines a 2D translation, moving the element along the Y-axis
+    scale(x,y) - Defines a 2D scale transformation, changing the elements width and height
+    scaleX(n) - Defines a 2D scale transformation, changing the element's width
+    scaleY(n) - Defines a 2D scale transformation, changing the element's height
+    rotate(angle) - Defines a 2D rotation, the angle is specified in the parameter
+    skew(x-angle,y-angle) - Defines a 2D skew transformation along the X- and the Y-axis
+    skewX(angle) - Defines a 2D skew transformation along the X-axis
+    skewY(angle) - Defines a 2D skew transformation along the Y-axis
+
+ animation: name | duration | timing-function | delay | iteration-count |direction | fill-mode | play-state;
+
+----------------------------------------------------------------------------------------------------
+    - animation-name: Specifies the name of the keyframe you want to bind to the selector
+    - animation-duration: Specifies how many seconds or milliseconds an animation takes to complete
+    - animation-timing-function: Specifies the speed curve of the animation
+    - animation-delay: Specifies a delay before the animation will start
+    - animation-iteration-count: Specifies how many times an animation should be played
+    - animation-direction: Specifies whether or not the animation should play in reverse on alternate cycles
+    - animation-fill-mode: Specifies what values are applied by the animation outside the time it is executing
+    - animation-play-state: Specifies whether the animation is running or paused
+    - initial: Sets this property to its default value. Read about initial
+    - inherit: Inherits this property from its parent element. Read about inherit
+
+        animation-iteration-count: number|infinite|initial|inherit;

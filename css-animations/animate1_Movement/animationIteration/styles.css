@@ -1,0 +1,38 @@
+@keyframes circle {
+    0%,100% {
+       transform: translate(0,150px);
+    }
+    40% {
+       transform: translate(150px,0px);
+    }
+    40% {
+       transform: translate(150px,0px);
+    }
+    60% {
+       transform: translate(0px,-150px);
+    }
+    80%{
+        transform: translate(-150px,0px);
+    }
+}
+
+
+.circle {
+    position: relative;
+    top:250px;
+    left:50%;
+    width: 120px;
+    height: 120px;
+    background: red;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    animation-name: circle;
+    animation-duration: 5s;
+    transition-timing-function: linear;
+    animation-iteration-count:infinite;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+}

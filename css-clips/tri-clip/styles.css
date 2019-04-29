@@ -1,0 +1,14 @@
+.section {
+    width:100%;
+    height:400px;
+    background-color: black;
+}
+
+.trap {
+    margin:auto;
+    height:380px;
+    width:480px;
+    background-image:url("http://s.ngm.com/2011/12/city-solutions/img/singapore-infinity-pool-615.jpg");
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}

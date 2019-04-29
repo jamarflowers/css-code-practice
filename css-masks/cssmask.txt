@@ -1,0 +1,16 @@
+A Mask in CSS is a Image and Clips are paths
+
+Clips are always vector paths
+
+-------------------------------------
+
+.element {
+  clip: rect(10px, 20px, 30px, 40px);
+}
+
+The clip property is deprecated in CSS
+-------------------------------------
+clip** shipped in browsers, it will probably always work. And the browser support for it is extremely strong: 
+pretty much every browser ever. Plus I've heard animation performance from it trumps newer methods.
+
+

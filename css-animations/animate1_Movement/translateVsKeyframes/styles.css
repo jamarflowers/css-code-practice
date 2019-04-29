@@ -1,0 +1,39 @@
+@keyframes boomerang {
+   0%,100% {
+       transform: translate(0px, 0px);
+       animation-timing-function:ease-in-out
+   }
+
+   50% {
+       transform: translate(350px, 0px);
+       animation-timing-function:ease-in-out
+   }
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.square2 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.square2:hover {
+    animation-name:boomerang;
+    animation-duration: 2s;
+ 
+}
+
+.square:hover{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Safari & Chrome **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+    transition-timing-function: ease-in-out;
+    transition: 2s;
+    }
+
+
+

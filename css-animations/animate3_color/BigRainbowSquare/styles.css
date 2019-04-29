@@ -1,0 +1,131 @@
+
+@keyframes rede {
+   0%,100% {
+       background-color:#fc0202;
+   }
+
+   50% {
+       background-color:#f7e94f;
+   }
+   70%{
+      background-color:#c3ff00; 
+   }
+}
+
+@keyframes bluee {
+   0%,100% {
+       background-color:#c3ff00;
+   }
+
+   50% {
+       background-color:#00d8ad;
+   }
+   70%{
+      background-color:#00d5d8; 
+   }
+}
+
+@keyframes greene {
+   0%,100% {
+       background-color:#00d5d8;
+   }
+
+   50% {
+       background-color:#0e00d8;
+   }
+   70%{
+      background-color:#4800d8; 
+   }
+}
+
+@keyframes yellowe {
+   0%,100% {
+       background-color:#4800d8;
+   }
+
+   50%  {
+       background-color:#d8006c;
+   }
+    70%{
+      background-color:#0ab568; 
+   }
+}
+
+@keyframes purplee {
+   0%,100% {
+       background-color:#0ab568;
+   }
+
+   50%  {
+       background-color:#f28f0e;
+   }
+    70%{
+      background-color:#fc0202; 
+   }
+}
+
+
+.square1 {
+    height: 700px;
+    width: 700px;
+    margin:auto;
+    background-color:red;
+    animation-name:rede;
+    animation-duration: 3s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count:infinite; 
+}
+.square2 {
+    height: 400px;
+    width: 400px;
+    margin:auto;
+    position: absolute;
+    top: 40%;
+    right:40%;
+    background-color: green;
+    animation-name:bluee;
+    animation-duration: 3s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count:infinite; 
+}
+.square3 {
+    height: 300px;
+    width: 300px;
+    margin:auto;
+    position: absolute;
+    top: 10%;
+    left:5%;
+    background-color: blue;
+    animation-name:greene;
+    animation-duration: 2s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count:infinite; 
+}
+.square4 {
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    position: absolute;
+    top: 16%;
+    left:5%;
+    background-color: yellow;
+    animation-name:yellowe;
+    animation-duration: 2s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count:infinite; 
+}
+.square5 {
+    height: 150px;
+    width: 150px;
+    margin:auto;
+    position: absolute;
+    top: 12%;
+    left:5%;
+    background-color: purple;
+    animation-name:purplee;
+    animation-duration: 2s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count:infinite; 
+}
+
+
